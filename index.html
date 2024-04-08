@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>INTERSET CALULATOR</h1>
+
+    <form>
+      <label for="prinicipaltext">PRINICIPAL AMOUNT</label>
+      <input type="text" id="prinicipaltext" /><br />
+
+      <label for="irtext"> INTEREST RATE</label>
+      <input type="text" id="irtext" /><br />
+
+      <label for="yrtext"> YEARS</label>
+      <input type="text" id="yrtext" /><br />
+
+      <button type="button" onclick="calculate()">SUBMIT</button><br />
+      <p id="totalresult">Total : <span id="totalamount">$:00</span></p>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
